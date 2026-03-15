@@ -1,7 +1,7 @@
 {
-  "name": "procore-browser-automation",
+  "name": "@browser-automation-hub/procore-browser-automation",
   "version": "1.0.0",
-  "description": "Browser automation for Procore — automate RFI submissions, submittal tracking, daily log entry, drawing management, and project reporting in the Procore construction platform.",
+  "description": "Browser automation for Procore — automate RFI submissions, submittal tracking, and project reporting",
   "main": "src/actions.js",
   "scripts": {
     "start": "node examples/basic-login.js",
@@ -17,7 +17,7 @@
     "browser-automation",
     "puppeteer",
     "playwright",
-    "anchorbrowser",
+    "anchor-browser",
     "nodejs"
   ],
   "license": "MIT",
@@ -36,5 +36,8 @@
   "homepage": "https://github.com/Browser-Automation-Hub/procore-browser-automation#readme",
   "bugs": {
     "url": "https://github.com/Browser-Automation-Hub/procore-browser-automation/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
